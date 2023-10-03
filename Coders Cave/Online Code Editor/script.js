@@ -4,6 +4,6 @@ function run(){
     let jsCode = document.getElementById("js-code").value;
     let outPut = document.getElementById("output");
 
-    outPut.contentDocument.body.innerHTML = htmlCode + "<style>" + cssCode + "</st>";
+    outPut.contentDocument.body.innerHTML = htmlCode + "<style>" + cssCode + "</style>";
     outPut.contentWindow.eval(jsCode);
 }
