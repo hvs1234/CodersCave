@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+}
+body
+{
+    height: auto;
+}
+body::before
+{
+    content: '';
+    background: url('img1.jpg') no-repeat center center/cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.5);
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 1rem 4rem;
+    box-shadow: 0 2px 10px black;
+    background-color: rgb(64, 97, 108);
+}
+.navbar h1
+{
+    color: white;
+    font-family: 'Mate SC';
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 3rem;
+}
+.navbar h1 span
+{
+    color: aqua;
+}
+.navbar h3
+{
+    margin: 0 15rem;
+    font-size: 2rem;
+    color: white;
+    font-weight: 100;
+    font-family: 'Josefin Sans';
+    letter-spacing: 2px;
+}
+.container
+{
+    height: 85vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+}
+.box
+{
+    width: 570px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: lightgreen;
+    box-shadow: 0 10px 20px rgb(34, 33, 33);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10rem;
+    padding: 0 2rem;
+}
+.content
+{
+    display: flex;
+    align-items: center;
+}
+.content input
+{
+    width: 300px;
+    margin-right: 2rem;
+    border-radius: 20px;
+    border: 0;
+    outline: 0px solid black;
+    box-shadow: 0 5px 10px black;
+    background-color: lightgrey;
+    padding: 1rem 2rem;
+    font-family: 'Ubuntu';
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(43, 11, 31);
+}
+.btn
+{
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    border: 0;   
+    background-color: rgb(251, 148, 183);
+    cursor: pointer;
+    font-family: 'Patrick Hand';
+    color: darkblue;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+.footer
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+.footer h1
+{
+    font-size: 1.5rem;
+    font-family: 'Mate SC';
+    letter-spacing: 2px;
+    font-weight: 100;
+}
