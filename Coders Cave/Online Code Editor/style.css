@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #454545;
+    color: #fff;
+}
+.head
+{
+    display: flex;
+    align-items: center;
+    padding: 1rem 4rem;
+    box-shadow: 0px 2px 10px black;
+}
+.head h1
+{
+    font-size: 2.2rem;
+    font-family: 'Mate SC';
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.head h1 span
+{
+    color: yellow;
+}
+.head h3
+{
+    margin: 0 auto;
+    font-family: 'Josefin Sans';
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: lawngreen;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 20px 20px;
+    margin-top: 1rem;
+    display: flex;
+    gap: 20px;
+}
+.left, .right{
+    flex-basis: 50%;
+    padding: 10px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left .box{
+    height: 25vh;
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    color: lime;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    border: none;
+    outline: none;
+}
+label i{
+    margin: 0 10px;
+    cursor: pointer;
+    color: aquamarine;
+}
+label i:hover
+{
+    color: lime;
+}
+label{
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    height: 30px;
+    color: wheat;
+    font-family: 'Mate SC';
+    letter-spacing: 2px;
+}
+.footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 4rem;
+}
+.footer h1
+{
+    font-size: 1.5rem;
+    font-family: 'Mate SC';
+    letter-spacing: 2px;
+    font-weight: 100;
+    color: lightblue;
+}
